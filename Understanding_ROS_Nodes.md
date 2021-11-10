@@ -62,6 +62,7 @@ $ rosrun [package_name] [node_name]
 ```
 ```
 $ rosrun turtlesim turtlesim_node
+$ rosrun turtlesim turtlesim_node __name:=my_turtle
 ```
 ```
 $ rosnode ping my_turtle

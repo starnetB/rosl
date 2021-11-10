@@ -3,6 +3,6 @@ prefix=/home/franka/home/catkin_ws/install
 Name: beginner_tutorlials
 Description: Description of beginner_tutorlials
 Version: 0.0.0
-Cflags: 
+Cflags: -I${prefix}/include
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: message_runtime
